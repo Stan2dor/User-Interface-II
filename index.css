@@ -10,14 +10,15 @@ header nav a {
     font-family: 'Courier New', Courier, monospace;
 }
 ul {
-    padding: 1.5em;
+    padding: 0.9em;
     overflow: hidden;
     background-color: #333;
 }
 li a {
     float: right;
     color: white;
-    margin-right: 3em;
+    margin-right: 1.4em;
+    padding: 0.5em;
     text-decoration: none;
 }
 li a:hover {
@@ -48,14 +49,14 @@ img.myphoto {
 }
  .intro p {
     font-family: 'Courier', monospace;
-    font-size: 1.1em;
+    font-size: 1.3vw;
     padding: 5em 1em 3em;
 }
 .btn-primary {
     font-family: 'Courier', monospace;
     border-color: rgb(69, 69, 69);
     padding: 0.5rem;
-    font-size: 1em;
+    font-size: 1vw;
     font-weight: 600;
     background-color: #EDCF44;
 }
@@ -64,7 +65,7 @@ img.myphoto {
 }
 .main p {
     font-family: 'Courier', monospace;
-    font-size: 1.1em;
+    font-size: 1.1vw;
     text-align: center;
     padding: 3em 5em 5em;
 }
@@ -180,11 +181,11 @@ h2 {
 /* Mobile queries */
 @media (max-width: 500px) {
     li a {
-        margin: 1em;
-        float:right;
+        margin: 1.5em;
     }
     body .hero {
         display: block;
+        padding-top: 4em;
     }
     body p {
         font-size: 3vw;
@@ -195,22 +196,22 @@ h2 {
     img.myphoto {
         width: 50%;
         border-radius: 50%;
-        padding: 1em;
+        padding: 0.5em;
     }
     .intro p {
         font-size: 3vw;
-        padding: 1em 1em 1em 1em;
+        padding: 4em 2em;
     }
     .main p {
         font-family: 'Courier', monospace;
         font-size: 3vw;
         margin: 1% 2% 1% 2%;
-        padding: 1em 2em 1em 2em;
+        padding: 3em 4em 1em 4em;
     }
     .btn-primary {
         padding: 5px;
         font-size: 3vw;
-        margin: 0.5rem;
+        margin-bottom: 5rem;
     }
     h2 {
         font-size: 3vw;
