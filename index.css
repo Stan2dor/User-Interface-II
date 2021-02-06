@@ -42,15 +42,15 @@ body .hero {
     flex: 1;
 }
 img.myphoto {
-    width: 80%;
+    width: 25vw;
     border-radius: 50%;
-    padding: 3em 1em 3em 1em;
-    /* height: auto; */
+    padding: 3em;
+    height: auto;
 }
  .intro p {
     font-family: 'Courier', monospace;
     font-size: 1.3vw;
-    padding: 5em 1em 3em;
+    padding: 5em 3em 3em 5em;
 }
 .btn-primary {
     font-family: 'Courier', monospace;
@@ -137,51 +137,50 @@ h2 {
 @media (max-width: 800px) {
     li a {
         margin: 1rem;
-        /* float: center; */
-
     }
     body .hero {
         display: block;
         padding: 1em;
     }
     body p {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     header nav a {
         font-size: 2.5vw;
     }
     img.myphoto {
-        width: 30%;
+        width: 50%;
         border-radius: 50%;
+        margin: auto;
     }
     .intro p {
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding: 1em 1em 1em 1em;
     }
     .main p {
         font-family: 'Courier', monospace;
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin: 1% 2% 1% 2%;
         padding: 1em 2em 1em 2em;
     }
     .btn-primary {
         padding: 1rem;
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin: 1rem;
     }
     h2 {
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding-top: 3em;
     }
     .btn-secondary {
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-top: 5%;
     }
 }
 /* Mobile queries */
 @media (max-width: 500px) {
     li a {
-        margin: 1.5em;
+        margin: 0em 1.5em;
     }
     body .hero {
         display: block;
@@ -194,7 +193,7 @@ h2 {
         font-size: 3vw;
     }
     img.myphoto {
-        width: 50%;
+        width: 40%;
         border-radius: 50%;
         padding: 0.5em;
     }
